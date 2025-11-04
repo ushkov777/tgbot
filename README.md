@@ -41,45 +41,45 @@ Java-бот для Telegram, который отвечает на сообщен
 1. **Клонируйте и настройте бота:**
 
 - bash
-git clone <ваш-репозиторий>
-cd MyBot
+- git clone <ваш-репозиторий>
+- cd MyBot
    
 2. **Обновите учетные данные бота в BotConfig.java:**
 
 - java
-public class BotConfig {
-    public static final String BOT_TOKEN = "ваш-настоящий-токен-бота";
-    public static final String BOT_USERNAME = "ваш-username-бота";
-}
+- public class BotConfig {
+-    public static final String BOT_TOKEN = "ваш-настоящий-токен-бота";
+-    public static final String BOT_USERNAME = "ваш-username-бота";
+- }
 
 3. **Соберите проект:**
 
 - bash
-mvn clean compile
+- mvn clean compile
 
 4. **Запустите бота:**
 
 - bash
-mvn exec:java -Dexec.mainClass="com.mybot.Main"
+- mvn exec:java -Dexec.mainClass="com.mybot.Main"
 
 ### Разработка
 
 **Сборка**
 
 - bash
-mvn clean package
+- mvn clean package
 
 **Тестирование**
 
 - bash
-mvn test
+- mvn test
 
 **Отчет о покрытии кода**
 
 - bash
-mvn jacoco:report
+- mvn jacoco:report
 
-Посмотрите отчет: target/site/jacoco/index.html
+- Посмотрите отчет: target/site/jacoco/index.html
 
 ## Зависимости
 
@@ -103,11 +103,11 @@ mvn jacoco:report
 
 **Запуск тестов**
 
-mvn test
+- mvn test
 
 **Запуск тестов с покрытием**
 
-mvn jacoco:prepare-agent test jacoco:report
+- mvn jacoco:prepare-agent test jacoco:report
 
 **Структура тестов**
 
@@ -121,13 +121,13 @@ mvn jacoco:prepare-agent test jacoco:report
 
 **Конфигурация бота**
 
-Отредактируйте src/main/java/com/mybot/config/BotConfig.java:
+- Отредактируйте src/main/java/com/mybot/config/BotConfig.java:
 
 - java
-public class BotConfig {
-    public static final String BOT_TOKEN = "ВАШ_ТОКЕН_БОТА";
-    public static final String BOT_USERNAME = "ВАШ_USERNAME_БОТА";
-}
+- public class BotConfig {
+-    public static final String BOT_TOKEN = "ВАШ_ТОКЕН_БОТА";
+-    public static final String BOT_USERNAME = "ВАШ_USERNAME_БОТА";
+- }
 
 **Конфигурация Maven**
 
