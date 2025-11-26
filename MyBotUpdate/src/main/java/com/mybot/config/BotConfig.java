@@ -5,3 +5,4 @@ public class BotConfig {
     public static final String BOT_USERNAME = "YOUR_BOT";
 
 }
+
